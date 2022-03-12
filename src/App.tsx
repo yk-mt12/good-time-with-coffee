@@ -1,0 +1,45 @@
+import React, { useState } from "react";
+import { ThemeProvider, Typography, useTheme, Box } from "@mui/material";
+
+import { Header } from "./components/page/Header";
+
+import { AmountBeans } from "./components/ui/AmountBeans";
+
+import "./App.css";
+import { Timer } from "./components/ui/Timer";
+import { ItemInput } from "./components/ui/ItemInput";
+import { Footer } from "./components/page/Footer";
+
+function App() {
+  const theme = useTheme();
+  const [amount, setAmount] = useState<number>(0);
+  const updateAmount = (props: number) => {
+    setAmount(props);
+  };
+
+  return (
+    <div className="App">
+      <ThemeProvider theme={theme}>
+        <Typography alignItems="center" variant="body1" minWidth={350} m={0}
+        style={{backgroundColor: "#fff", color: "#232f34"}} >
+          <Header />
+          <Box display="flex" justify-content="center" alignItems="center">
+            <ItemInput
+              updateAmount={updateAmount}
+              classname={"input-amount"}
+            />
+          </Box>
+          <Box justify-content="center" alignItems="center" sx={{  mt: 3}}>
+            <AmountBeans amount={amount} />
+          </Box>
+          <Box>
+            <Timer />
+          </Box>
+          <Footer/>
+        </Typography>
+      </ThemeProvider>
+    </div>
+  );
+}
+
+export default App;
