@@ -7,7 +7,7 @@ import "./App.css";
 import { Timer } from "./components/ui/Timer";
 import { ItemInput } from "./components/ui/ItemInput";
 import { Footer } from "./components/page/Footer";
-import { SelectRatio } from "./components/ui/Select/SelectRatio";
+// import { SelectRatio } from "./components/ui/Select/SelectRatio";
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
           </Box>
           <Box>
             <Timer />
-            
+
           </Box>
           <Footer/>
         </Typography>
