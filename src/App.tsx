@@ -35,6 +35,7 @@ function App() {
           </Box>
           <Box>
             <Timer />
+            
           </Box>
           <Footer/>
         </Typography>
