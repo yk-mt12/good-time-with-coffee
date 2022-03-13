@@ -10,13 +10,10 @@ type Props = {
 export const ItemCard: React.VFC<Props> = React.memo((props)=> {
   const { beans } = props;
   return (
-    <Card  sx={{  maxWidth: 345, pt: 1, m: "0 auto" }} >
-      <CardContent>
-        <Typography sx={{ fontSize: 25 }} component='div'>
-          Beans: {beans}
-        </Typography>
-      </CardContent>
-    </Card>
+    <div style={{fontSize: "18px"}}>
+      <p>Beans: <span style={{color: "primary"}}>{beans}</span></p>
+    </div>
+
   );
 }
 )

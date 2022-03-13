@@ -9,24 +9,31 @@ export const Timer = memo(() => {
     autoStart: false,
   });
 
-
   return (
     <div style={{ textAlign: "center" }}>
       <h1 style={{ fontSize: "24px", marginTop: "24px" }}>Drip timer</h1>
       <div style={{ fontSize: "48px" }}>
         <span>{minutes}</span>.<span>{seconds}</span>
       </div>
-      <p style={{margin: "8px 0"}}>{isRunning ? "Dripping." : "Don't you drip?"}</p>
+      <p style={{ margin: "8px 0" }}>
+        {isRunning ? "Dripping." : "Don't you drip?"}
+      </p>
 
       <ButtonGroup variant="outlined">
-        <Button style={{backgroundColor:"#344955", color:"#fff"}} onClick={start}>
+        <Button
+          style={{ backgroundColor: "#404040", color: "#ffffff" }}
+          onClick={start}
+        >
           Start
         </Button>
-        <Button onClick={pause} style={{backgroundColor:"#344955", color:"#fff"}}>
+        <Button
+          onClick={pause}
+          style={{ backgroundColor: "#404040", color: "#ffffff" }}
+        >
           Pause
         </Button>
         <Button
-        style={{backgroundColor:"#344955", color:"#fff"}}
+          style={{ backgroundColor: "#404040", color: "#ffffff" }}
           onClick={
             reset as unknown as React.MouseEventHandler<HTMLButtonElement>
           }

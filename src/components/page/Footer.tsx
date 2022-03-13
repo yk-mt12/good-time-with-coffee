@@ -5,8 +5,7 @@ export const Footer: VFC = memo(() => {
   return (
     <Box
       style={{
-        backgroundColor: "#344955",
-        color: "#fff",
+        backgroundColor: "#282828",
         height: "40px",
         paddingTop: "18px",
         bottom: "0px",
