@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { ThemeProvider, Typography, useTheme, Box } from "@mui/material";
 
 import { Header } from "./components/page/Header";
-
 import { AmountBeans } from "./components/ui/AmountBeans";
-
 import "./App.css";
 import { Timer } from "./components/ui/Timer";
 import { ItemInput } from "./components/ui/ItemInput";
 import { Footer } from "./components/page/Footer";
+// import { SelectRatio } from "./components/ui/Select/SelectRatio";
+
 
 function App() {
   const theme = useTheme();
@@ -21,9 +21,10 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <Typography alignItems="center" variant="body1" minWidth={350} m={0}
-        style={{backgroundColor: "#fff", color: "#232f34"}} >
+        style={{backgroundColor: "#181818", color: "#ffffff"}} >
           <Header />
           <Box display="flex" justify-content="center" alignItems="center">
+            {/* <SelectRatio /> */}
             <ItemInput
               updateAmount={updateAmount}
               classname={"input-amount"}
@@ -34,6 +35,7 @@ function App() {
           </Box>
           <Box>
             <Timer />
+
           </Box>
           <Footer/>
         </Typography>
