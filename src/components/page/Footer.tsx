@@ -7,13 +7,13 @@ export const Footer: VFC = memo(() => {
       style={{
         backgroundColor: "#344955",
         color: "#fff",
-        height: "60px",
+        height: "40px",
         paddingTop: "18px",
         bottom: "0px",
-        marginTop: "20px",
+        marginTop: "50px",
         marginBottom: "0px",
         fontSize: "15px",
-        position: "absolute",
+        position: "relative",
         width: "100%"
       }}
     >
