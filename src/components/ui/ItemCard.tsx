@@ -1,7 +1,4 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
 
 type Props = {
   beans: number;
@@ -12,6 +9,7 @@ export const ItemCard: React.VFC<Props> = React.memo((props)=> {
   return (
     <div style={{fontSize: "18px"}}>
       <p>Beans: <span style={{color: "primary"}}>{beans}</span></p>
+      <p style={{fontSize: "14px", color: "#fff"}}>Coffee ratio = 1:16</p>
     </div>
 
   );
