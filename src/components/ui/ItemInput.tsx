@@ -79,6 +79,3 @@ export const ItemInput: VFC<Props> = memo((props) => {
     </Box>
   );
 });
-function useStyles() {
-  throw new Error("Function not implemented.");
-}
