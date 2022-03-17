@@ -7,6 +7,7 @@ import "./App.css";
 import { Timer } from "./components/ui/Timer";
 import { ItemInput } from "./components/ui/ItemInput";
 import { Footer } from "./components/page/Footer";
+import Head from "./components/page/Head";
 // import { SelectRatio } from "./components/ui/Select/SelectRatio";
 
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div className="App">
+      <Head />
       <ThemeProvider theme={theme}>
         <Typography alignItems="center" variant="body1" minWidth={350} m={0}
         style={{backgroundColor: "#181818", color: "#ffffff", height: "100vh"}} >
