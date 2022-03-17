@@ -19,7 +19,7 @@ const Head = (props) => {
             <meta property="og:title" content="Good Time with Coffee" />
             <meta property="og:description" content="コーヒーの抽出量を入力するだけで、豆の量を計算できます。コーヒーにとって重要な抽出時間もタイマーによって測れます。" />
             <meta property="og:site_name" content="Good Time with Coffee" />
-            <meta property="og:image" content="../assets/image/ogp_coffee.png" />
+            <meta property="og:image" content="../assets/image/ogp_coffee2.png" />
             {/* OGP ここまで */}
 	    {/* Google Font ここから */}
             <link rel="preconnect" href="https://fonts.googleapis.com" />
