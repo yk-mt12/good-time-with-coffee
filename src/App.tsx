@@ -20,8 +20,8 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Typography alignItems="center" variant="body1" minWidth={350} minHeight={650} m={0} pb={5}
-        style={{backgroundColor: "#181818", color: "#ffffff"}} >
+        <Typography alignItems="center" variant="body1" minWidth={350} m={0}
+        style={{backgroundColor: "#181818", color: "#ffffff", height: "100vh"}} >
           <Header />
           <Box display="flex" justify-content="center" alignItems="center">
             {/* <SelectRatio /> */}
