@@ -6,17 +6,17 @@ export const Footer: VFC = memo(() => {
     <Box
       style={{
         backgroundColor: "#282828",
-        height: "40px",
-        paddingTop: "18px",
+        height: "25px",
+        paddingTop: "8px",
         bottom: "0px",
         marginTop: "50px",
         marginBottom: "0px",
-        fontSize: "15px",
-        position: "relative",
-        width: "100%"
+        fontSize: "10px",
+        position: "absolute",
+        width: "100%",
       }}
     >
-<p>Copyright &copy; Kitsune inc. All Rights Researved</p>
+      <p>Copyright &copy; Kitsune inc. All Rights Researved</p>
     </Box>
   );
 });
