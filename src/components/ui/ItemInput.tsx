@@ -71,7 +71,7 @@ export const ItemInput: VFC<Props> = memo((props) => {
       </div>
       <AmountButton
         classname={"add-amount"}
-        text={"add"}
+        text={"ok"}
         updateAmount={updateAmount}
         errorCheck={errorCheck}
         amount={values.amount}
