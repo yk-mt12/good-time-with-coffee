@@ -6,5 +6,5 @@ URL: https://good-time-with-coffee.netlify.app/
 また、コーヒーの味を安定させる上で重量である、抽出時間もタイマーによって計算できます。
 
 ## Blog
-###珈琲が好きすぎて、WEBアプリを作った話
+### 珈琲が好きすぎて、WEBアプリを作った話
 URL: https://www.kitsune-blog.tokyo/develop-good-time-with-coffee
