@@ -4,7 +4,7 @@ import FormControl from "@mui/material/FormControl";
 import { TextField } from "@mui/material";
 
 import { AmountButton } from "./Button/AmountButton";
-import { textFieldStyle } from "../assets/textFieldStyle";
+import { textFieldStyle } from "../../assets/textFieldStyle";
 
 type Props = {
   updateAmount: (arg: number) => void;
