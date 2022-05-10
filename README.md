@@ -6,7 +6,8 @@
 ## App description
 コーヒーの抽出量を入力するだけで、コーヒー豆の量を計算できます。豆と湯量の比率は1:16(黄金比)です。
 また、コーヒーの味を安定させる上で重量である抽出時間もタイマーによって計算できます。<br/>
-現在は、こちらの[リポジトリ](https://github.com/yk-mt12/coffee-app-mobile）で開発継続中です。（詳細は下記に記載。）
+現在は、こちらの[リポジトリ](https://github.com/yk-mt12/coffee-app-mobile)
+で開発継続中です。（詳細は下記に記載。）
 
 ![coffee-ver1 0](https://user-images.githubusercontent.com/67742985/167607168-c623feeb-4a4c-4183-aef0-e968c59bc89a.jpg)
 
